@@ -1,0 +1,107 @@
+
+.body-bg {
+    background-color: #E6D29F;
+    font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: #343434;
+  font-size: 20px;
+}
+
+.bg-custom {
+    background-color: #FFF9EA;
+    box-shadow: 0 10px 60px -3px #a5111f, 0 4px 60px -4px #a5111f;
+}
+.container {
+    background-color: #FFF9EA;
+    margin-bottom: 0px;
+}
+
+.navbar-custom, .dropdown-menu {
+    background-color: #E6D29F;
+}
+.navbar-custom 
+.navbar-brand,
+.navbar-custom 
+.navbar-nav 
+.nav-link a {
+    color: #a5111f;
+}
+.bg-image {
+    height: 10px;
+    max-width: 100%;
+        background-size: cover;
+        /*background-position: center center; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+}
+.hero-font {
+    color: #e0b572;
+    font-weight: normal;
+    max-width: 100%;
+}
+.first {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.second {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: auto;
+    margin-top: 0px;
+    padding-left: 150px;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+.m {
+    font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+}
+.header-font {
+    font-family: "Cinzel", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding-top: 30px;
+}
+h2 {
+    font-family: "Monsieur La Doulaise", cursive;
+}
+.sub-heading {
+    font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color:#a5111f;
+}
+.footer-custom {
+    margin-bottom: 0px;
+    padding-bottom: 10;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #a5111f;
+    color: #FFF9EA;
+}
+
+/*.hero {
+    text-align: center;
+    color: var(--primary-color); 
+    padding: 100px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+}//
