@@ -182,12 +182,17 @@ h2 {
 }
 
 @media (max-width: 900px) {
-    img {
-        max-height: 80%;
-        max-width: 80%;
-    } 
+    
     .header-pic {
         display: none;
+    }
+    .form {
+        width: 80%;
+        height: 400px;
+    }
+    .newstext {
+        font-size: 5;
+        padding: 0;
     }
 }
 
