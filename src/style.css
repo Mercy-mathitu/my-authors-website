@@ -47,6 +47,9 @@
     max-width: 100%; 
     font-size: 1px;
 }
+.hero-link {
+    text-decoration: none;
+}
 .first {
     display: flex;
     align-items: left;
