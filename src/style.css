@@ -90,12 +90,12 @@ h2 {
     font-weight: 400;
   font-style: normal;
   font-size: 50px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .newstext {
     font-style: normal;
     font-size: 25px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
@@ -103,12 +103,12 @@ h2 {
     font-weight: bold;
 }
 .col-form-label {
-    color: var(--primary-color)!important;
+    color: var(--secondary-color)!important;
     font-weight: bold;
 }
 
 .form-check-label {
-    color: var(--primary-color)!important;
+    color: var(--secondary-color)!important;
     font-weight: bold;
 }
 .button {
@@ -132,7 +132,7 @@ h2 {
     background-size: cover;
     background-attachment: static;
     color: var(--primary-color);
-    text-shadow: 2px 2px 2px #78090931; 
+    text-shadow: 2px 2px 2px #78090949; 
         position: relative;
     }
 
@@ -140,7 +140,8 @@ h2 {
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: #78090931;
+        background-color: #78090949;
+        color: var(--secondary-color);
     }
 
 
