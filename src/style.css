@@ -22,9 +22,15 @@
 }
 
 
-.dropdown-item, dropdown-menu {
-    background-color: var(--accent-color)!important;
+.dropdown-item {
+    background: linear-gradient(90deg, hsla(43, 59%, 76%, 1) 0%, rgb(240, 213, 138) 42%, rgb(237, 147, 131) 69%, rgb(225, 110, 110) 100%);
+    
     color: var(--primary-color)!important;
+}
+
+.dropdown-menu {
+    
+    background: linear-gradient(90deg, hsla(43, 59%, 76%, 1) 0%, rgb(240, 213, 138) 42%, rgb(237, 147, 131) 69%, rgb(225, 110, 110) 100%);
 }
 .navbar-custom {
     background: linear-gradient(90deg, hsla(43, 59%, 76%, 1) 0%, rgb(240, 213, 138) 42%, rgb(237, 147, 131) 69%, rgb(225, 110, 110) 100%);
