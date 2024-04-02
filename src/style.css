@@ -199,10 +199,7 @@ h2 {
     
     .bg-image {
         min-height: 10vh;}
-    /*.header-pic {
-        min-height: 30vh;
-        min-width: 50%;
-    }  */
+    
     
     h1 {
         font-size: calc(1.525rem + 3.3vw);
