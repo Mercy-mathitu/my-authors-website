@@ -14,7 +14,6 @@
 <body class="body-bg">
     <div class="container px-0 bg-custom p-0">
         <header>
-            <div class="container-fluid header h-100 p-0 mt-0">
             <nav class="navbar navbar-expand-lg menu navbar-custom mt-0 p-0">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,22 +66,31 @@
                <!-- Navbar -->
     
       <!-- Background image -->
-              <div class="container text-center hero bg-image img-fluid width-100%" style="background-image: url('images/header-image.png');
-            height: 40vh;">
-                <div class="row">
-                    <div class="col-2">
-                      </div>
-                  <div class="col-5">
-                    <a href="index.html" class="hero-link" ><h1 class="hero-font"><span class="first pt-5"><span class="m">M</span><span class="header-font">athitu</span></span> <br> 
-                        <span class="second pt-0"><span class="m">W</span><span class="header-font">airimu</span></span>
-                    </h1> </a>
+      <div class="bg-image" style="background-image: url('images/header-image.png');
+      min-height: 40vh;">
+      <div class="container-fluid text">
+        <div class="row justify-content-evenly">
+          <div class="col-4 d-flex justify-content-center align-items-center">
+            <div class="">
+              <a href="index.html" class="hero-link" > 
+                <div class="d-flex justify-content-start m-0">
+                  <h1 class="hero-font"><span class="first"><span class="m">M</span><span class="header-font">athitu</span></span></h1>
                   </div>
-                  <div class="col-4">
-                    <img src="images/header-pic.png" class="img-fluid  header-pic" alt="Picture of Mathitu">
-                  </div>
-                  
-                </div>
-                </div>
+                  <div class="d-flex justify-content-end"> 
+                   <h1><span class="second"><span class="m">W</span><span class="header-font">airimu</span></span>
+               </h1>
+               </div> 
+              </a>
+             </div>
+          </div>
+          <div class="col-4 d-flex justify-content-center align-items-center">
+            
+              <img src="images/header-pic.png" class="img-fluid  header-pic" alt="Picture of Mathitu">
+            
+          </div>
+        </div>
+          </div> 
+        </div>
             </header>
 
           <!-- about -->
@@ -101,46 +109,38 @@
           </div>
 
          <!-- newsletter -->
-         <div class="bg-image newsletter-img d-flex justify-content-center align-items-center " style=" background-image: url('images/nl-img.png');
-         height: 75vh;"
-        >
-            <div class="form">
-                <form style="width: 100%;">
-                    <h2 class="d-flex justify-content-center align-items-center sub-heading">Subscribe</h2>
-                        <p class="d-flex justify-content-center align-items-center newstext m-0">Subscribe to Mathitu's Newsletter and be on the Know.</p>
-                    <!-- Name input -->
-                    <div data-mdb-input-init class="form-outline mb-0">
-                      <label class="form-label" for="form5Example1">Name</label>
-                      <input type="text" id="form5Example1" class="form-control" />
-                      
-                    </div>
-                  
-                    <!-- Email input -->
-                    <div data-mdb-input-init class="form-outline mb-0">
-                      <label class="form-label" for="form5Example2">Email address</label>
-                      <input type="email" id="form5Example2" class="form-control" />
-                      
-                    </div>
-                  
-                    <!-- Checkbox -->
-                    <div class="form-check d-flex justify-content-center mb-0">
-                      <label class="form-check-label fs-6" for="form5Example3">
-                        I consent to having Mathitu Wairimu collect my email address in accordance with her <a href="#" class="policy-link">privacy policy</a>.
-                      </label>
-                    </div>
-                  
-                    <!-- Submit button -->
-                    
-                    <button data-mdb-ripple-init type="button" class="button btn btn-lg mb-2">Sign Up</button>
-                  </form>
-               
-                </div>
-
-          </div>
+          <div class="newsletter-bg" style=" background-image: url('images/nl-img.png');
+         min-height: 60vh;"
+        > 
+        <div class=" color-overlay d-flex justify-content-center align-items-center">
+          <form>
+            <h2 class="newsletter-heading d-flex align-items-center justify-content-center fs-2">Subscribe</h2>
+                        <p class="form-label">Subscribe to Mathitu's Newsletter and be on the Know.</p>
+            <div class="row mt-2">
+              <label for="inputname" class="col-sm-2 col-form-label fs-6">Name</label>
+              <div class="col-sm-10">
+                <input type="name" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mt-2">
+              <label for="inputemail" class="col-sm-2 col-form-label fs-6">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputemail">
+              </div>
+            </div>
+            <label class="form-check-label fs-6" for="form5Example3">
+              I consent to having Mathitu Wairimu collect my email address in accordance with her <a href="#" class="policy-link">privacy policy</a>.
+            </label>
+            <button data-mdb-ripple-init type="button" class="button btn btn-md m-2 d-flex align-items-center justify-content-center">Sign Up</button>
+          </form> 
+        </div>
+         </div>
 
 <!-- Footer -->
 <footer>
-    <div class="container footer-custom mt-3">
+  <div class="container text-center hero bg-image img-fluid width-100% footer-custom mt-3" style="background-image: url('images/footer-image.png');
+        height: 40vh;">
+    
         <div class="socials">
             <ul class="socials-list">
                 <li><a class="footer-link" href="https://www.instagram.com/mathituwrites?igsh=MWg1NnFremtuMnZiNw=="><i class="bi bi-instagram p-1"></i></a></li>

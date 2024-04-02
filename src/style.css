@@ -1,6 +1,13 @@
+:root {
+    --primary-color: #780909;
+    --secondary-color: #FFF9EA;
+    --accent-color: #E6D29F;
+    
+
+}
 
 .body-bg {
-    background-color: #E6D29F;
+    background-color: var(--accent-color);
     font-family: "Cormorant", serif;
   font-optical-sizing: auto;
   font-weight: normal;
@@ -10,17 +17,17 @@
 }
 
 .bg-custom {
-    background-color: #FFF9EA;
-    box-shadow: 0 10px 60px -3px #a5111f, 0 4px 60px -4px #a5111f;
+    background-color: var(--secondary-color);
+    box-shadow: 0 10px 60px -3px #780909, 0 4px 60px -4px #780909;
 }
 .container {
-    background-color: #FFF9EA;
+    background-color: var(--secondary-color);
     margin-bottom: 0px;
 }
 
 .dropdown-item, dropdown-menu {
-    background-color: #E6D29F!important;
-    color: #a5111f!important;
+    background-color: var(--accent-color)!important;
+    color: var(--primary-color)!important;
 }
 .navbar-custom {
     background: linear-gradient(90deg, hsla(43, 59%, 76%, 1) 0%, rgb(240, 213, 138) 42%, rgb(237, 147, 131) 69%, rgb(225, 110, 110) 100%);
@@ -28,7 +35,7 @@
 }
 
 .nav-link {
-    color: #a5111f!important; 
+    color: var(--primary-color)!important; 
 }
 .nav-link:hover {
     color: #b46a53!important;
@@ -39,55 +46,46 @@
         align-items: center;
         justify-content: center;
         flex-direction: column; 
-        position: relative; 
+        position: relative;
+        color: var(--accent-color);
+        text-shadow: 2px 2px 2px #780909;
 } 
-.hero-font {
-    color: #e0b572;
-    font-weight: normal;
-    max-width: 100%; 
-    font-size: 1px;
+h1 {
+    font-size: 4rem;
 }
 .hero-link {
     text-decoration: none;
+    color: var(--accent-color);
 }
 .first {
     display: flex;
     align-items: left;
     justify-content: left;
-    margin-left: auto;
+    
 }
 .second {
    display: flex;
     align-items: center;
     justify-content: center;
-   margin-left: auto;
+   
 }
 
 .m {
     font-family: "Monsieur La Doulaise", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 80px;
+    font-weight: bold;
+    font-size: 40px;
 }
 .header-font {
     font-family: "Cinzel", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 40px;
-  padding-top: 30px;
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 17px;
 }
-img {
-    max-height: 92%;
+.header-pic {
+    max-height: 40vh;
     max-width: 100%;
 } 
-.header-pic {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   margin-left: auto;
-   padding: 0;
-   
-}
+
 h2 {
     font-family: "Monsieur La Doulaise", cursive;
 }
@@ -95,29 +93,34 @@ h2 {
     font-weight: 400;
   font-style: normal;
   font-size: 50px;
-  color:#a5111f;
+  color: var(--primary-color);
 }
-
 .newstext {
-    font-weight: 400;
     font-style: normal;
     font-size: 25px;
-    color:#a5111f;
+    color: var(--primary-color);
     font-weight: bold;
 }
+.newsletter-heading {
+    font-weight: bold;
+    font-family: "Cinzel", serif;
+}
 .form-label {
-    color: #a5111f!important;
+    font-weight: bold;
+}
+.col-form-label {
+    color: var(--primary-color)!important;
     font-weight: bold;
 }
 
 .form-check-label {
-    color: #a5111f!important;
+    color: var(--primary-color)!important;
     font-weight: bold;
 }
 .button {
-    background: transparent!important;
-    border-color: #a5111f!important;
-    color: #a5111f!important;
+    border-color: var(--primary-color)!important;
+    color: var(--secondary-color)!important;
+    background-color:  var(--primary-color)!important;
     border-width: 2px!important; 
     display: flex;
         align-items: center;
@@ -127,21 +130,23 @@ h2 {
 
 .button:hover {
     color: #b46a53!important;
-    background-color: #FFF9EA!important;
+    background-color: var(--secondary-color)!important;
 }
 
 
-.newsletter-img {
+.newsletter-bg {
     background-size: cover;
     background-attachment: static;
-    background-position: center;
-    background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column; 
+    color: var(--primary-color);
+    text-shadow: 2px 2px 2px #78090931; 
         position: relative;
-        box-shadow: inset 0 0 0 1000px #e0b6724d; 
+    }
+
+    .color-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #78090931;
     }
 
 
@@ -160,20 +165,20 @@ h2 {
     padding-bottom: 10;
     padding-top: 10px;
     text-align: center;
-    background-color: #a5111f;
-    color: #FFF9EA;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 .footer-link {
-    color: #E6D29F;
+    color: var(--accent-color);
     padding: 5px;
     font-size: xx-large;
 }
 .footer-link:hover {
-    color: #FFF9EA;
+    color: var(--secondary-color);
 }
 .credit-link {
     text-decoration: none;
-    color: #e0b572;
+    color: var(--accent-color);
     transition: all 0.3s;
 }
 .credit-link:hover {
@@ -182,12 +187,12 @@ h2 {
     transform: scale(1.30)
 }
 .policy-link {
-    color: rgb(10, 10, 68)!important;
+    color: blue!important;
     text-decoration: none!important;
 }
 .policy-link:hover {
     text-decoration: underline!important;
-    color: blue!important;
+    color: rgb(10, 10, 68)!important;
 }
 
 .socials-list {
@@ -196,19 +201,24 @@ h2 {
     list-style-type: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     
+    .bg-image {
+        min-height: 30vh;}
     .header-pic {
-        display: none;
+        min-height: 50vh;
+        min-width: 300%;
+    }
+    .newsletter-bg {
+            min-height: 30vh;}
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
     }
     .form {
-        width: 80%;
-        height: 400px;
+       
+        padding-bottom: 10;
+        margin-left: 3px;
     }
-    .newstext {
-        font-size: 5;
-        padding: 0;
     }
-}
 
 
