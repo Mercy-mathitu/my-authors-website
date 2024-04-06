@@ -24,8 +24,11 @@
 
 .dropdown-item {
     background: linear-gradient(90deg, hsla(43, 59%, 76%, 1) 0%, rgb(240, 213, 138) 42%, rgb(237, 147, 131) 69%, rgb(225, 110, 110) 100%);
-    
+    font-weight: bold!important;
     color: var(--primary-color)!important;
+}
+.dropdown-item:hover {
+    color: #b46a53!important;
 }
 
 .dropdown-menu {
@@ -39,6 +42,7 @@
 
 .nav-link {
     color: var(--primary-color)!important; 
+    font-weight: bold!important;
 }
 .nav-link:hover {
     color: #b46a53!important;
